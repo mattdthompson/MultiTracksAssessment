@@ -4,3 +4,12 @@ DB/bin/
 DB/obj/
 Web/multitracks.com/multitracks.com/Bin/
 packages/
+/.vs/multitracks.com-dotNet/config/debuggerConfiguration-87ed2c8e-902b-4400-a71a-41bff7b98f13.json
+/.vs/MutliTracks/v16/.suo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/api.multitracks.com/bin/Debug/net5.0
+/api.multitracks.com/obj
+/DB/MultiTracksDB.dbmdl
+*jfm
