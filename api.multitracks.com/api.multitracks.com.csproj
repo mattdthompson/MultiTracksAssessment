@@ -6,6 +6,13 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\MTDataAccess\MTDataAccess.csproj" />
+    <ProjectReference Include="..\DB\MultiTracksDB.sqlproj" />
   </ItemGroup>
 
 </Project>

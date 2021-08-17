@@ -26,19 +26,21 @@
 				<div class="details-banner">
 					<div class="details-banner--overlay"></div>
 					<div class="details-banner--hero">
-						<img class="details-banner--hero--img" src="./img/31.jpg" 
+						<asp:Image class="details-banner--hero--img" ID="HeroImg" runat="server"/>
+<%--						<img class="details-banner--hero--img" src="./img/31.jpg" 
 						srcset="./img/31.jpg, 
-						./img/31.jpg 2x" alt="Bethel Music">
+						./img/31.jpg 2x" alt="Bethel Music">--%>
 					</div>
 					<div class="details-banner--info">
 						<a href="#" class="details-banner--info--box">
-								<img class="details-banner--info--box--img"
+						<asp:Image class="details-banner--info--box--img" ID="AvatarImg" runat="server"/>
+<%--								<img class="details-banner--info--box--img"
 								 src="./img/174.jpg"
 								 srcset="./img/174-sm.jpg,
 								 			./img/174.jpg 2x"
-							     alt="alt">
+							     alt="alt">--%>
 						</a>
-						<h1 class="details-banner--info--name"><a class="details-banner--info--name--link" href="#">Bethel Music</a></h1>
+						<h1 class="details-banner--info--name" id="ArtistName" name="ArtistName" runat="server"><a class="details-banner--info--name--link" href="#">Bethel Music</a></h1>
 					</div>
 				</div>
 
@@ -263,10 +265,13 @@
 									</div><!-- /.discovery-section-header -->
 
 									<div class="artist-details--biography biography">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<p id="ArtistBio" name="ArtistBio" runat="server">
+
+										</p>
+<%--										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 										</p>
 										<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-										<p></p>
+										<p></p>--%>
 										<a href="#">Read More...</a>
 									</div>
 								</section><!-- /.biography-section -->
