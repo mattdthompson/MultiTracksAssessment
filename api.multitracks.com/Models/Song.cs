@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 
 namespace api.multitracks.com.Models
 {
+    /// <summary>
+    /// DTO for Song table in MultiTracksDB.
+    /// Casing matches DB columns
+    /// </summary>
     public class Song
     {
         public int songID { get; set; }
