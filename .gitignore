@@ -4,3 +4,8 @@ DB/bin/
 DB/obj/
 Web/multitracks.com/multitracks.com/Bin/
 packages/
+/api.multitracks.com/obj/Release/net5.0
+/api.multitracks.com/obj
+/api.multitracks.com/bin/Debug/net5.0
+/DB/MultiTracksDB.dbmdl
+*.jfm
